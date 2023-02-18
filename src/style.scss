@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .active
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.carousel-item
+{
+  height:auto;
+}
+
+
+.marg
+{
+  margin-top: 100px;
+} 
+$color_1: rgb(11, 11, 11);
+
+.navbar {
+	.container-fluid {
+		.collapse {
+			.navbar-nav {
+				.nav-link {
+					&:hover {
+						color: $color_1;
+						scale: 1.3;
+					}
+				}
+			}
+		}
+	}
+}
+
